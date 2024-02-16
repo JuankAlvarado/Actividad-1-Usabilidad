@@ -1,0 +1,176 @@
+body
+{
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+    color: #555;
+}
+
+header
+{
+    background-color: #0074cc; /* Azul */
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: #ffd700;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.seccion-titulo, h2
+{
+    line-height: 1.5;
+    text-align: center;
+    color: #0074CC;
+}
+
+.seccion-titulo, h3
+{
+    color: #0074cc;
+}
+
+.imagen-destacada
+{
+  max-width: 70%;
+  height: auto;
+  margin: 0 auto; /* Centrar horizontalmente utilizando margen automático */
+  display: block; /* Asegurar que sea un bloque para aplicar márgenes automáticos */
+  border-radius: 5px;
+}
+
+
+p
+{
+    line-height: 1;
+    color: #555;
+    text-align: justify;
+}
+
+footer {
+  background-color: #0074cc; /* Azul */
+   color: #fff; /* Blanco */
+   text-align: center;
+   padding: 10px 0;
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+   font-weight: bold;
+}
+
+.enlace
+{
+    color: #ffd700;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0
+}
+
+.columnas
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.columna
+{
+    flex: 1;
+    margin: 0 10px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+}
+
+.contenido
+{
+    padding: 20px;
+}
+
+.subtitulo {
+    color: #333;
+}
+
+
+
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a:hover {
+    color: #005686;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #0074cc;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #005686;
+}
